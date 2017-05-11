@@ -1,5 +1,5 @@
 {
-    "name": "apimatic/landedcostcalculationapi",
+    "name": "bubnov-mikhail/landedcostcalculationapi",
     "type": "library",
     "description": "Landed Cost API providing duty rates, calculation, and item harmonization. A set of sample requests are available as a [Postman Collection](https://www.getpostman.com/collections/ad308f6c9351a18c2c12). ## Basics ### Timestamps Timestamps should be formatted using ISO-8601 to the nearest second, in UTC e.g `2015-06-12T09:17:37Z` ### Expiries All Requests will have an associated timestamp. The validity for any request is 1 minute to account for any clock-skew.  ## Authorization All API requests require an http header that contains your account ID and your account API Key. During account provisioning, you will be issued an API Key which you must supply with every request. ### Authorization Header To make an authorized API request, set the following HTTP header:  `authorization: avalaraapikey id:<accountId> key:<apiKey>`",
     "keywords": ["LandedCost Calculation API","API","SDK"],
